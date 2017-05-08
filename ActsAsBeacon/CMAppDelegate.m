@@ -7,7 +7,9 @@
 //
 
 #import "CMAppDelegate.h"
-#import <IOBluetooth/IOBluetooth.h>
+//#import <IOBluetooth/IOBluetooth.h>
+#import <CoreBluetooth/CBPeripheralManager.h>
+#import <CoreBluetooth/CBPeripheral.h>
 #import "CMBeaconAdvertismentData.h"
 
 @interface CMAppDelegate () <CBPeripheralManagerDelegate>
